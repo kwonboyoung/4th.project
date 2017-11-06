@@ -8,8 +8,6 @@ Dir.chdir("src")
     
 #end
 
-# files=[]
-
 # puts Dir.entries(Dir.pwd) # .이나 ..도 같이 나옴. 이건 cd ..에 쓰이는 그런....ㅋㅋㅋㅋ
 
 files = Dir.entries(Dir.pwd).reject {|name| name[0]=='.'}
